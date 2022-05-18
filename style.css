@@ -20,8 +20,8 @@ body{
 }
 .navigation{
     position: absolute;
-    bottom: 16px;
-    left: 50%;
+    bottom: 120px;
+    left: 88%;
     transform: translateX(-50%);
     display: flex;
 }
