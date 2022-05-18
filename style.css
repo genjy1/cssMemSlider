@@ -1,17 +1,27 @@
+@media screen and (max-width:420px) {
+    .slider{
+        max-width: 275px;
+        max-height: 125px;
+    }
+    .navigation__wrapper{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+    }
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: #818181;
+    background-color: #30363D;
 }
 .slider{
     width: 1100px;
     height: 600px;
     overflow: hidden;
     border-radius: 15px;
-    /* border: 10px white solid; */
 }
 .middle{
     position: absolute;
@@ -31,14 +41,16 @@ body{
     width: 12px;
     margin: 6px;
     cursor: pointer;
-    background-color: #71A5F1;
+    /* background-color: #71A5F1; */
     border-radius: 50px;
     transition: all .4s ease;
+    border: 1px solid #71A5F1;
 }
 .bar:hover{
     opacity: .8;
     transform: scale(1.1);
     background-color: white;
+    border: 1px solid white;
 }
 input[name=r]{
     position: absolute;
@@ -70,5 +82,5 @@ input[name=r]{
     margin-left: -75%;
 }
 .slider__wrapper{
-    max-width: 1100px;
+    width: 1100px;
 }
